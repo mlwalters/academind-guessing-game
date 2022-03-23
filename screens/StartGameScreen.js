@@ -19,5 +19,9 @@ const styles = StyleSheet.create({
         padding: 16,
         backgroundColor: '#72063c',
         elevation: 4, // android only property
+        shadowColor: 'black',
+        shadowOffset: { width: 0, height: 2 }, // to add shadow for iOS, affects android too
+        shadowRadius: 6,
+        shadowOpacity: 0.5,
     },
 });
